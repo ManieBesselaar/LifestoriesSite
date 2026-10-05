@@ -1,0 +1,106 @@
+
+
+m_semitransparent{
+background-color: rgb(52,97,66);
+}
+*{
+
+
+}
+
+h1{
+	font-family: pangolin, cursive;
+	}
+body{
+background-image:   url("images/bg.jpg");
+background-repeat:  no-repeat;
+background-size: cover;
+background-attachment:  fixed;
+background-position:  center;
+font-family:  cursive;
+}
+.m_background_logo{
+	
+background-image: url("images/LogoImage.png")  url("images/bg.jpg");
+background-repeat:  no-repeat , no-repeat;
+background-size: cover, cover;
+background-attachment:  fixed, fixed;
+background-position: top center, center;
+font-family:  cursive;
+}
+
+.m_maincontent{
+margin: 10px;
+
+background-color: #f0e7ab;
+border-style: none;
+border-radius: 20px;
+padding: 5px;
+color: #853d37;
+box-shadow: 5px 5px 15px lightslategray;
+}
+
+.m_logo
+{
+
+
+width: 100%;
+
+height: auto;
+max-height: 288px;
+max-width: 512px;
+margin: auto;
+}
+.m_cards{
+
+
+margin: 10px;
+color: #853d37;
+box-shadow: 5px 5px 15px lightslategray;
+background-color: #f0e7ab;
+padding-bottom: 15px;
+border-radius: 20px;
+max-width: 90%;
+
+}
+.m_cardimage
+{
+border-radius: 20px;
+width:80%; 
+max-width: 512px;
+height:auto; 
+margin:10px;
+box-shadow: 5px 5px 15px lightslategray;
+}
+
+.m_linkbutton
+{
+background-color: red; border-radius: 10px;
+color: #853d37;
+box-shadow: 5px 5px 15px lightslategray;
+background-color: #f0e7ab;
+margin: 3px;
+}
+
+.m_header
+{
+	color: #853d37;
+
+}
+
+/* Video frame style */
+
+.iframe-container
+{
+"position: relative; 
+width: 80%; 
+padding-bottom: 56%;
+ height :0;
+}
+.iframe-container iframe
+{
+position: absolute;
+top: 0;
+left: 0;
+
+}

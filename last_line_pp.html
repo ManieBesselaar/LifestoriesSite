@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<title>Lifestories Development</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="lifestoriesstyle.css">
+
+<head>
+
+<link rel="icon" href="favicon.png">
+</head>
+
+<body>
+
+
+<div class="w3-bar m_semitransparent w3-row">
+<h1 class="m_header">Lifestories Development</h1>
+ <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-left m_linkbutton" >Home</a>
+ 
+ <a href="last_line_main.html" class="w3-bar-item w3-button w3-hide-small w3-left m_linkbutton">Back</a>
+ <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-left" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div id="demo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium ">
+ <a href="index.html" class="w3-bar-item w3-button m_linkbutton">Home</a>
+ <a href="last_line_main.html" class="w3-bar-item w3-button m_linkbutton">Back</a>
+ 
+</div> 
+
+<div class="m_maincontent w3-center">
+<h1 class="m_header"> The Last Line</h1>
+<h2 class="m_header"> Privacy Policy</h2>
+<!--app logo -->
+ 
+ 
+
+ <strong>Privacy Policy</strong>
+ <p>
+ Effective date:2025-10-31
+ </p>
+
+ <p>
+ Lifestories Development built the The Last Line app. This Privacy Policy explains how the app handles privacy and data.
+ </p>
+
+ <p>
+ Summary: The Last Line does not collect analytics, telemetry, personal identifiers, or any data that is transmitted off the device. The game stores only local preferences (volume, control settings and similar) on the device using Unity PlayerPrefs. The only time an external URL may be opened is when you explicitly choose to view the privacy policy or other external resources from the Options / Privacy screen.
+ </p>
+
+ <h3>Information we do NOT collect</h3>
+ <ul>
+ <li>No analytics events (no Unity Analytics, Firebase, Google Analytics, etc.).</li>
+ <li>No crash reporting or remote error telemetry.</li>
+ <li>No device identifiers, advertising identifiers, or IP addresses are collected or transmitted by the game.</li>
+ <li>No personal data such as name, email, contacts, or precise location is collected.</li>
+ </ul>
+
+ <h3>Local preferences</h3>
+ <p>
+ The game stores only local preferences using Unity PlayerPrefs (for example: audio volume, game speed, control preferences, and whether you acknowledged the privacy policy). These values are stored locally on your device and are not transmitted anywhere by default.
+ </p>
+
+ <h3>Network access</h3>
+ <p>
+ The game does not require internet access to play. When you choose to view the privacy policy via the Options/Privacy UI, the app may open a web URL in your system browser. If no external URL is configured, a local packaged privacy policy file will be shown. Other than that explicit user action, the app does not initiate network connections.
+ </p>
+
+ <h3>Third-party SDKs</h3>
+ <p>
+ This project does not include analytics SDKs. If you add third-party SDKs in the future (ads, analytics, crash reporting) they may collect data — please review their privacy policies and disclose their use here.
+ </p>
+
+ <h3>Links to third-party privacy policies (if applicable)</h3>
+ <p>
+ If the app integrates optional third-party services, you can use these links to review their privacy policies. At present, this app does not use these services, but below are commonly referenced providers:
+ </p>
+ <ul>
+ <li><a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+ <li><a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Unity Privacy Policy</a></li>
+ </ul>
+
+ <h3>Children’s privacy</h3>
+ <p>
+     This app is  intended for children from 0 to 99 years old. We do not knowingly collect personal information from anyone.
+ </p>
+
+ 
+ <h3>Changes to this policy</h3>
+ <p>
+ We may update this Privacy Policy from time to time. Please review it periodically. Changes take effect when posted.
+ </p>
+
+ <h3>Contact</h3>
+ <p>
+ If you have questions about this policy, contact: lifestoriesdevelopement@gmail.com
+ </p>
+
+ 
+
+</div>
+
+
+<script>
+function myFunction() {
+ var x = document.getElementById("demo");
+ if (x.className.indexOf("w3-show") == -1) {
+ x.className += " w3-show";
+ } else { 
+ x.className = x.className.replace(" w3-show", "");
+ }
+}
+</script>
+
+</body>
+
+</html>
